@@ -7,13 +7,13 @@
 %define		pnam	Template
 Summary:	Excel::Template - create Excel files from templates
 Name:		perl-Excel-Template
-Version:	0.31
+Version:	0.33
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dc7ad5cba7b61cd4cbfc337562cbffe0
+# Source0-md5:	7916450329aa3308a80b4f1ebbe69a17
 %if %{with tests}
 BuildRequires:	perl-Spreadsheet-WriteExcel
 BuildRequires:	perl-version
