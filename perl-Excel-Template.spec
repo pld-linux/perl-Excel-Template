@@ -4,7 +4,6 @@
 
 %define		pdir	Excel
 %define		pnam	Template
-%include	/usr/lib/rpm/macros.perl
 Summary:	Excel::Template - create Excel files from templates
 Name:		perl-Excel-Template
 Version:	0.33
